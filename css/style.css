@@ -1,0 +1,102 @@
+body {
+		margin: 0;
+		font-family: 'Segoe UI', sans-serif;
+		color: #333;  
+    }
+    header {
+		background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6oOpmAYqc9E2VjsdKAc-bVViPigRhJXO4Kw&s');
+		background-size: cover;
+		background-position: center;
+		color: black;
+		padding: 2rem;
+		text-align: center;
+    }
+		header h1 {
+		margin: 0;
+		font-size: 2.5rem;  
+    }
+    header p {
+		font-size: 1.2rem;
+    }
+    nav {
+        display: flex;
+		justify-content: center;
+		background-color: black;
+		padding: 0.5rem 0;
+    }
+    nav a {
+		color: white;
+		text-decoration: none;
+		margin: 0 1rem;
+		font-weight: bold;
+    }
+    section {
+		padding: 2rem;
+		max-width: 1000px;
+		margin: auto;
+    }
+    .services {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 1.5rem;
+    }
+    .service-card {
+		background-color: black;
+		color:white
+		padding: 1.5rem;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0,0,0,0.1);
+		padding: 15px;
+    }
+    .service-card h3 {
+		margin-top: 0;
+		color: pink;
+    }
+	.service-card p{
+		color:white;
+	}
+	.service-card:hover {
+        background: #1a2421;
+		color: white;
+		transform: translateY(-3px);
+	 }
+	 service-card p {
+		color:white;
+    }
+	.Feedback {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 1.5rem;
+    }
+    .Feedback-card {
+         background-color: black;
+	     color:white;
+         padding: 15px;
+         border-radius: 10px;
+         box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+	.Feedback-card h3 {
+		margin-top: 0;
+		color: pink;
+    }
+	.Feedback-card:hover {
+		background: #1a2421;
+		color: white;
+		transform: translateY(-3px);
+	 }
+	.nn{
+	      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6oOpmAYqc9E2VjsdKAc-bVViPigRhJXO4Kw&s');
+		  background-size: cover;
+	      background-position: center;
+		  height: 180vh;
+	   
+	  }
+	
+    footer {
+		background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6oOpmAYqc9E2VjsdKAc-bVViPigRhJXO4Kw&s');
+		background-size: cover;
+		background-position: center;      
+	    color: black;
+        text-align: center;
+        padding: 1rem;
+    }
